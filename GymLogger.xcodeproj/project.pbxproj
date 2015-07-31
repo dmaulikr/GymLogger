@@ -14,18 +14,7 @@
 		39FEE64D1B6BE66400A9B2AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE64B1B6BE66400A9B2AB /* Main.storyboard */; };
 		39FEE64F1B6BE66400A9B2AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE64E1B6BE66400A9B2AB /* Images.xcassets */; };
 		39FEE6521B6BE66400A9B2AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FEE6501B6BE66400A9B2AB /* LaunchScreen.xib */; };
-		39FEE65E1B6BE66500A9B2AB /* GymLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE65D1B6BE66500A9B2AB /* GymLoggerTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		39FEE6581B6BE66500A9B2AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39FEE6331B6BE66400A9B2AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39FEE63A1B6BE66400A9B2AB;
-			remoteInfo = GymLogger;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		39FEE63B1B6BE66400A9B2AB /* GymLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,20 +28,10 @@
 		39FEE64C1B6BE66400A9B2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39FEE64E1B6BE66400A9B2AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39FEE6511B6BE66400A9B2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		39FEE6571B6BE66500A9B2AB /* GymLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39FEE65C1B6BE66500A9B2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39FEE65D1B6BE66500A9B2AB /* GymLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GymLoggerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39FEE6381B6BE66400A9B2AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39FEE6541B6BE66500A9B2AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				39FEE63D1B6BE66400A9B2AB /* GymLogger */,
-				39FEE65A1B6BE66500A9B2AB /* GymLoggerTests */,
 				39FEE63C1B6BE66400A9B2AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				39FEE63B1B6BE66400A9B2AB /* GymLogger.app */,
-				39FEE6571B6BE66500A9B2AB /* GymLoggerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,23 +82,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		39FEE65A1B6BE66500A9B2AB /* GymLoggerTests */ = {
-			isa = PBXGroup;
-			children = (
-				39FEE65D1B6BE66500A9B2AB /* GymLoggerTests.m */,
-				39FEE65B1B6BE66500A9B2AB /* Supporting Files */,
-			);
-			path = GymLoggerTests;
-			sourceTree = "<group>";
-		};
-		39FEE65B1B6BE66500A9B2AB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				39FEE65C1B6BE66500A9B2AB /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,24 +102,6 @@
 			productReference = 39FEE63B1B6BE66400A9B2AB /* GymLogger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39FEE6561B6BE66500A9B2AB /* GymLoggerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39FEE6641B6BE66500A9B2AB /* Build configuration list for PBXNativeTarget "GymLoggerTests" */;
-			buildPhases = (
-				39FEE6531B6BE66500A9B2AB /* Sources */,
-				39FEE6541B6BE66500A9B2AB /* Frameworks */,
-				39FEE6551B6BE66500A9B2AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39FEE6591B6BE66500A9B2AB /* PBXTargetDependency */,
-			);
-			name = GymLoggerTests;
-			productName = GymLoggerTests;
-			productReference = 39FEE6571B6BE66500A9B2AB /* GymLoggerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,10 +113,6 @@
 				TargetAttributes = {
 					39FEE63A1B6BE66400A9B2AB = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					39FEE6561B6BE66500A9B2AB = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 39FEE63A1B6BE66400A9B2AB;
 					};
 				};
 			};
@@ -192,7 +130,6 @@
 			projectRoot = "";
 			targets = (
 				39FEE63A1B6BE66400A9B2AB /* GymLogger */,
-				39FEE6561B6BE66500A9B2AB /* GymLoggerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +142,6 @@
 				39FEE64D1B6BE66400A9B2AB /* Main.storyboard in Resources */,
 				39FEE6521B6BE66400A9B2AB /* LaunchScreen.xib in Resources */,
 				39FEE64F1B6BE66400A9B2AB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39FEE6551B6BE66500A9B2AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39FEE6531B6BE66500A9B2AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39FEE65E1B6BE66500A9B2AB /* GymLoggerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		39FEE6591B6BE66500A9B2AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39FEE63A1B6BE66400A9B2AB /* GymLogger */;
-			targetProxy = 39FEE6581B6BE66500A9B2AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		39FEE64B1B6BE66400A9B2AB /* Main.storyboard */ = {
@@ -369,40 +283,6 @@
 			};
 			name = Release;
 		};
-		39FEE6651B6BE66500A9B2AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GymLoggerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymLogger.app/GymLogger";
-			};
-			name = Debug;
-		};
-		39FEE6661B6BE66500A9B2AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GymLoggerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymLogger.app/GymLogger";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +300,6 @@
 			buildConfigurations = (
 				39FEE6621B6BE66500A9B2AB /* Debug */,
 				39FEE6631B6BE66500A9B2AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		39FEE6641B6BE66500A9B2AB /* Build configuration list for PBXNativeTarget "GymLoggerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39FEE6651B6BE66500A9B2AB /* Debug */,
-				39FEE6661B6BE66500A9B2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
