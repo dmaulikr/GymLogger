@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001EE7B9C692C9A61E2C6259 /* libPods-GymLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51371C7596881B9FAF8D9E24 /* libPods-GymLogger.a */; };
 		39FEE6411B6BE66400A9B2AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE6401B6BE66400A9B2AB /* main.m */; };
 		39FEE6441B6BE66400A9B2AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE6431B6BE66400A9B2AB /* AppDelegate.m */; };
 		39FEE6471B6BE66400A9B2AB /* GymLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39FEE6451B6BE66400A9B2AB /* GymLogger.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3356CD2F28345D2FC7A8EBEC /* Pods-GymLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymLogger/Pods-GymLogger.release.xcconfig"; sourceTree = "<group>"; };
 		39FEE63B1B6BE66400A9B2AB /* GymLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FEE63F1B6BE66400A9B2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39FEE6401B6BE66400A9B2AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		39FEE64C1B6BE66400A9B2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39FEE64E1B6BE66400A9B2AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39FEE6511B6BE66400A9B2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		51371C7596881B9FAF8D9E24 /* libPods-GymLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GymLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F41C57289EAD10ACEDA181C /* Pods-GymLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymLogger/Pods-GymLogger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001EE7B9C692C9A61E2C6259 /* libPods-GymLogger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				39FEE63D1B6BE66400A9B2AB /* GymLogger */,
 				39FEE63C1B6BE66400A9B2AB /* Products */,
+				E3D292555CFB25E6A4CE079E /* Pods */,
+				91CFCEC36B422178EC3798E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +89,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		91CFCEC36B422178EC3798E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51371C7596881B9FAF8D9E24 /* libPods-GymLogger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3D292555CFB25E6A4CE079E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F41C57289EAD10ACEDA181C /* Pods-GymLogger.debug.xcconfig */,
+				3356CD2F28345D2FC7A8EBEC /* Pods-GymLogger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39FEE6611B6BE66500A9B2AB /* Build configuration list for PBXNativeTarget "GymLogger" */;
 			buildPhases = (
+				1B542D16BBFC59C714E78E38 /* Check Pods Manifest.lock */,
 				39FEE6371B6BE66400A9B2AB /* Sources */,
 				39FEE6381B6BE66400A9B2AB /* Frameworks */,
 				39FEE6391B6BE66400A9B2AB /* Resources */,
+				21C702F55492B0BAAB241A8A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +172,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B542D16BBFC59C714E78E38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21C702F55492B0BAAB241A8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymLogger/Pods-GymLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39FEE6371B6BE66400A9B2AB /* Sources */ = {
@@ -265,6 +324,7 @@
 		};
 		39FEE6621B6BE66500A9B2AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F41C57289EAD10ACEDA181C /* Pods-GymLogger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GymLogger/Info.plist;
@@ -275,6 +335,7 @@
 		};
 		39FEE6631B6BE66500A9B2AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3356CD2F28345D2FC7A8EBEC /* Pods-GymLogger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GymLogger/Info.plist;
@@ -302,6 +363,7 @@
 				39FEE6631B6BE66500A9B2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
